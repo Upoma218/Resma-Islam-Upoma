@@ -33,7 +33,7 @@ function App() {
 
   ])
   return (
-    <div data-theme="black">
+    <div data-theme="night">
       <RouterProvider router={router}></RouterProvider>
     </div>
   );
