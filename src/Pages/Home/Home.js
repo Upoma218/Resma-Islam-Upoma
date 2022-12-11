@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../../Assets/heroImg.png';
 import { Link } from 'react-router-dom';
 import { Typewriter } from 'react-simple-typewriter';
 
@@ -14,7 +15,7 @@ const Home = () => {
     return (
         <div className="hero max-h-screen px-20 my-12">
             <div className="hero-content flex-col lg:flex-row-reverse">
-                <img src="" className="max-w-sm rounded-lg shadow-2xl" alt='' />
+                <img src={logo} className="max-w-sm rounded-lg" alt='' />
                 <div className='text-center lg:text-left lg:pr-24'>
                     <h1 className="text-2xl font-bold my-6">Hello!</h1>
                     <h1 className="text-5xl font-bold my-3">
