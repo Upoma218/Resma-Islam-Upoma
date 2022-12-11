@@ -12,7 +12,7 @@ const Projects = () => {
 
     return (
         <div className='p-20'>
-            <h1 className="text-5xl font-bold my-3 text-center">Some Of My Projects</h1>
+            <h1 className="text-5xl font-semibold text-center uppercase text-info">Some Of My Projects</h1>
             <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 rounded mt-24'>
                 {
                     projects && 

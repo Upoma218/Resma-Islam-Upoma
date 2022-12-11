@@ -21,7 +21,7 @@ const ProjectDetails = ({ project }) => {
                 </div>
                 <p>{details}</p>
                 <div className="card-actions">
-                    <Link to={`/projectInfo/${id}`}><button className='btn  btn-sm glass'>View Details</button></Link>
+                    <Link to={`/projectInfo/${id}`}><button className='btn  btn-sm btn-info mt-3'>View Details</button></Link>
 
                 </div>
             </div>
