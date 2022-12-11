@@ -6,7 +6,7 @@ import Projects from './Pages/Projects/Projects';
 import Main from './Layout/Main';
 import HomePage from './Pages/Home/HomePage';
 import Blogs from './Pages/Blogs/Blogs';
-import ProjectInfo from './Pages/ProjectInfo/ProjectInfo';
+import ProjectInfo from './Pages/Projects/ProjectInfo';
 
 function App() {
   const router = createBrowserRouter([
@@ -43,7 +43,7 @@ function App() {
 
   ])
   return (
-    <div data-theme="night">
+    <div data-theme="dark">
       <RouterProvider router={router}></RouterProvider>
     </div>
   );
