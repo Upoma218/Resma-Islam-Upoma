@@ -13,6 +13,7 @@ const Navbar = () => {
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="aboutMe">About Me</Link></li>
                         <li><Link to="projects">Projects</Link></li>
+                        <li><Link to="blogs">Blogs</Link></li>
                         <li><Link to="contactMe">Contact Me</Link></li>
                     </ul>
                 </div>
@@ -23,6 +24,7 @@ const Navbar = () => {
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="aboutMe">About Me</Link></li>
                     <li><Link to="projects">Projects</Link></li>
+                    <li><Link to="blogs">Blogs</Link></li>
                     <li><Link to="contactMe">Contact Me</Link></li>
                 </ul>
             </div>

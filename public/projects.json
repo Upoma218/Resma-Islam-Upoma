@@ -4,41 +4,51 @@
         "img":"projectsImages/FloraChef.png",
         "name":"Flora The Chef",
         "details":"This is a personal service review-based project where a The Chef Called Flora works with homemade food, party dishes etc.",
-        "link":"https://flora-the-chef.web.app/"
+        "link":"https://flora-the-chef.web.app/",
+        "ClientSiteCode":"https://github.com/Upoma218/service-review-client-side",
+        "ServerSiteCode":"https://github.com/Upoma218/service-review-server-side"
     },
     {
         "id": "2",
         "img":"projectsImages/walikingRoutine.png",
         "name":"Weekly Walking Routine App",
         "details":"It's an app by which you can maintain your daily walking routine. You can count your walking time and break time.",
-        "link":"https://kaleidoscopic-heliotrope-5f22a9.netlify.app/"
+        "link":"https://kaleidoscopic-heliotrope-5f22a9.netlify.app/",
+        "ClientSiteCode":"https://github.com/Upoma218/walking-routine-app"
+        
     },
     {
         "id": "3",
         "img":"projectsImages/uLearning.png",
         "name":"ULearning",
         "details":"It's e-learning website where courses has included category wise. Course Details also added. You can download the course details as pdf file.",
-        "link":"https://u-learning-online-bd-client.web.app/"
+        "link":"https://u-learning-online-bd-client.web.app/",
+        "ClientSiteCode":"https://github.com/Upoma218/learning-platform",
+        "ServerSiteCode":"https://github.com/Upoma218/lerning-platform-server-side"
     },
     {
         "id": "4",
         "img":"projectsImages/usedCloth.png",
         "name":"Used Cloth Collection",
         "details":"A dynamic website of Used Cloth Collection where admin can control buyer and seller, seller can add their products for sell, buyer can buy their products.",
-        "link":"https://used-cloth-collections.web.app/"
+        "link":"https://used-cloth-collections.web.app/",
+        "ClientSiteCode":"https://github.com/Upoma218/used-cloth-collections",
+        "ServerSiteCode":"https://github.com/Upoma218/used-cloth-collections-server"
     },
     {
         "id": "5",
         "img":"projectsImages/DailyNews.png",
         "name":"Daily News",
         "details":"It's a newspaper website. Different kind of news included. You can find here news according to category, details news is also available.",
-        "link":"https://super-kulfi-8ada71.netlify.app/"
+        "link":"https://super-kulfi-8ada71.netlify.app/",
+        "ClientSiteCode":"https://github.com/Upoma218/b6-news-portal"
     },
     {
         "id": "6",
         "img":"projectsImages/bestFive.png",
         "name":"Select Best Five",
         "details":"It's a sports related website. You can select best five players from the all players. Budget calculation included. Responsive for all device",
-        "link":"https://6304f27941c9dd144b011705--playful-baklava-13691c.netlify.app/"
+        "link":"https://6304f27941c9dd144b011705--playful-baklava-13691c.netlify.app/",
+        "ClientSiteCode":"https://github.com/Upoma218/best-five-dom"
     }
 ]

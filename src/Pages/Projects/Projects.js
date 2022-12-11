@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import ProjectDetails from './ProjectDetails';
 
 const Projects = () => {
-    const [projects, setProjects] = useState();
+    const [projects, setProjects] = useState([]);
 
     useEffect(() => {
         fetch('projects.json')
