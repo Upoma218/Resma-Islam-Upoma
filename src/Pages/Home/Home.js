@@ -19,17 +19,18 @@ const Home = () => {
             <div className="hero-content flex-col lg:flex-row-reverse lg:px-20 mt-12">
                 <img src={logo} className="max-w-sm rounded-lg" alt='' />
                 <div className='text-center lg:text-left lg:pr-24'>
-                    <h1 className="text-2xl font-bold mb-4 uppercase">Hello!</h1>
+                    <h1 className="text-4xl font-semibold mb-4 uppercase">
+                        I'm Resma Islam <span className='text-info'>Upoma</span></h1>
                     <h1 className="text-5xl font-bold my-5">
-                        I AM RESMA{' '}
+                        A {' '}
                         <span span className='text-info'>
                             {/* Style will be inherited from the parent element */}
                             <Typewriter
-                                words={['ISLAM','UPOMA']}
+                                words={['JUNIOR','WEB', 'DEVELOPER','MERN','STACK','DEVELOPER','FRONT','END','DEVELOPER']}
                                 loop={5}
                                 cursor
-                                cursorStyle=' '
-                                typeSpeed={20}
+                                cursorStyle='. . .'
+                                typeSpeed={30}
                                 deleteSpeed={70}
                                 delaySpeed={1000}
                                 onLoopDone={handleDone}
