@@ -1,15 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import BgImg from '../../Assets/bg.jpg';
 
 
 const ProjectDetails = ({ project }) => {
     const {id, img, name, details, link, ClientSiteCode, ServerSiteCode } = project;
     return (
-        <div className="card shadow-2xl  bg-neutral rounded-2xl mb-6 w-full">
+        <div className="card shadow-2xl mb-6 w-full">
             <figure>
                 <img src={img} alt="" className="h-48 w-full" />
             </figure>
-            <div className="card-body items-center text-center">
+            <div className="card-body items-center text-center "style={{ backgroundImage: `url(${BgImg})` }}>
                 <h2 className="card-title">{name}</h2>
                 <div className='text-xs flex'>
                     <a href={link} target='_blank' className='mr-2 link'>Live Site</a>

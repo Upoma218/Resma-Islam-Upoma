@@ -3,8 +3,6 @@ import logo from '../../Assets/heroImg.png';
 import BgImg from '../../Assets/bg.jpg';
 import { Link } from 'react-router-dom';
 import { Typewriter } from 'react-simple-typewriter';
-import ParticlesBackground from '../../Particles/ParticlesBackground';
-
 
 const Home = () => {
     const handleType = (count) => {
@@ -17,7 +15,7 @@ const Home = () => {
 
     return (
         <div className="hero min-h-screen"style={{ backgroundImage: `url(${BgImg})` }}>
-            <div className="hero-overlay bg-opacity-75"></div>
+            <div className="hero-overlay bg-opacity-80"></div>
             <div className="hero-content flex-col lg:flex-row-reverse lg:px-20 mt-12">
                 <img src={logo} className="max-w-sm rounded-lg" alt='' />
                 <div className='text-center lg:text-left lg:pr-24'>
