@@ -46,9 +46,8 @@ function App() {
 
   ])
   return (
-    <div  data-theme="forest">
+    <div  data-theme="night">
       <RouterProvider router={router}></RouterProvider>
-      <Typewriter></Typewriter>
     </div>
   );
 }

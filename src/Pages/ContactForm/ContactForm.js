@@ -1,42 +1,76 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { useForm, ValidationError } from '@formspree/react';
 
-class ContactMe extends Component {
-
-  componentWillMount () {
-    const script = document.createElement("script");
-
-    script.src = "https://www.jotform.com/assign/223433519756461/223434024271041";
-    script.async = true;
-
-    document.body.appendChild(script);
+function ContactForm() {
+  const [state, handleSubmit] = useForm("mqkjrjej");
+  if (state.succeeded) {
+    return <p>Thanks for joining!</p>;
   }
+  return (
+    <>
+      <h1 className="text-5xl font-semibold text-center mt-12 text-info uppercase">Contact Form</h1>
+      <div className='p-12 m-20 lg:mx-80 border border-slate-600'>
+        <form onSubmit={handleSubmit}>
+          <label htmlFor="name">
+            Name
+          </label>
+          <br />
+          <input
+            id="name"
+            type="text"
+            name="name"
+            className='w-full h-8 mr-3 rounded mb-5 mt-3'
+          />
+          <ValidationError
+            prefix="Name"
+            field="name"
+            errors={state.errors}
+          />
+          <br />
+          <label htmlFor="email">
+            Email Address
+          </label>
+          <br />
+          <input
+            id="email"
+            type="email"
+            name="email"
+            className='w-full h-8 mr-3 rounded mb-5 mt-3'
+          />
+          <ValidationError
+            prefix="Email"
+            field="email"
+            errors={state.errors}
+          />
 
-  render() {
-    const divStyle = {
-          margin: "0 auto",
-          maxWidth: "100%",
-          width: "640px"
-        };
-
-    const iframeStyle = {
-          margin: "0 auto",
-          maxWidth: "100%",
-          width: "100%",
-          height: "550px",
-          border: "1px solid #cfcfcf"
-        };
-
-    const riddleID = "120064";
-    const riddleUrl = "https://form.jotform.com/223433519756461" ;
-
-    return (
-      <div className='py-16'>
-        <div className="riddle_target" data-rid-id={riddleID} data-fg="#252525" data-bg="#EDEDED" style={divStyle} data-auto-scroll="true">
-          <iframe title="embed-test" style={iframeStyle} src={riddleUrl}></iframe>
-        </div>
+          <br />
+          <label htmlFor="message">
+            Message
+          </label>
+          <br />
+          <textarea
+            id="message"
+            name="message"
+            className='w-full mr-3 rounded mb-5 mt-3 h-20'
+          />
+          <ValidationError
+            prefix="Message"
+            field="message"
+            errors={state.errors}
+          />
+          <br />
+          <button className='btn btn-info btn-sm' type="submit" disabled={state.submitting}>
+            Submit
+          </button>
+        </form>
       </div>
-    );
-  }
+    </>
+  );
 }
-
+function ContactMe() {
+  return (
+    <ContactForm />
+  );
+}
 export default ContactMe;
+
