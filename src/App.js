@@ -8,7 +8,6 @@ import HomePage from './Pages/Home/HomePage';
 import Blogs from './Pages/Blogs/Blogs';
 import ProjectInfo from './Pages/Projects/ProjectInfo';
 import React from 'react';
-import { Typewriter } from 'react-simple-typewriter';
 
 
 function App() {
