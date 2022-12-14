@@ -7,13 +7,13 @@ import Typewriter from 'typewriter-effect';
 
 
 const Home = () => {
-    const handleType = (count) => {
-        // access word count number
-        console.log(count)
-    }
-    const handleDone = () => {
-        console.log(`Done after 5 loops!`)
-    }
+    // const handleType = (count) => {
+    //     // access word count number
+    //     console.log(count)
+    // }
+    // const handleDone = () => {
+    //     console.log(`Done after 5 loops!`)
+    // }
 
     return (
         <div className="hero min-h-screen" style={{ backgroundImage: `url(${BgImg})` }}>
