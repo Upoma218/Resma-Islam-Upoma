@@ -8,7 +8,7 @@ function ContactForm() {
   }
   return (
     <>
-      <h1 className="text-5xl font-semibold text-center mt-12 text-info uppercase">Contact Form</h1>
+      <h1 className="text-4xl font-semibold text-center mt-12 text-info uppercase">Contact Form</h1>
       <div className='p-12 m-20 lg:mx-80 border border-slate-600'>
         <form onSubmit={handleSubmit}>
           <label htmlFor="name">

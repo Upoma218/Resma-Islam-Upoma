@@ -15,7 +15,7 @@ const ProjectInfo = () => {
     })
     return (
         <div className='mt-24 lg:px-60 '>
-            <h1 className="text-5xl uppercase font-semibold mb-12 text-center text-info">Project Details</h1>
+            <h1 className="text-4xl uppercase font-semibold mb-12 text-center text-info">Project Details</h1>
             {
                 info?.length && info.map(
                     i =><Details  key={i.id} i={i}></Details>

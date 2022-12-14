@@ -27,10 +27,10 @@ const Home = () => {
                             {/* Style will be inherited from the parent element */}
                             <Typewriter
                                 words={['JUNIOR','WEB', 'DEVELOPER','MERN','STACK','DEVELOPER','FRONT','END','DEVELOPER']}
-                                loop={5}
+                                loop={10}
                                 cursor
-                                cursorStyle='. . .'
-                                typeSpeed={30}
+                                cursorStyle='_'
+                                typeSpeed={50}
                                 deleteSpeed={70}
                                 delaySpeed={1000}
                                 onLoopDone={handleDone}

@@ -7,7 +7,7 @@ import LogoGitHub from '../../Assets/github.png';
 const Blogs = () => {
     return (
         <div className='px-20 mb-12'>
-            <h1 className="text-5xl font-semibold text-center text-info uppercase">Blogs</h1>
+            <h1 className="text-4xl font-semibold text-center text-info uppercase">Blogs</h1>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-8  rounded mt-16'>
                 <div className="card bg-base-100 shadow-xl image-full mb-12 lg:h-60">
                     <figure><img src={LogoHtml} alt="" className='lg:h-40' /></figure>
