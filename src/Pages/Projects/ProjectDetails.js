@@ -10,7 +10,7 @@ const ProjectDetails = ({ project }) => {
             <figure>
                 <img src={img} alt="" className="h-48 w-full" />
             </figure>
-            <div className="card-body items-center text-center "style={{ backgroundImage: `url(${BgImg})` }}>
+            <div className="card-body items-center text-center bg-neutral">
                 <h2 className="card-title">{name}</h2>
                 <div className='text-xs flex'>
                     <a href={link} target='_blank' className='mr-2 link'>Live Site</a>

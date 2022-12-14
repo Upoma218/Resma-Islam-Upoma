@@ -23,18 +23,18 @@ const AboutMe = () => {
             </p>
             <h1 className="text-4xl font-semibold my-12 text-center uppercase text-info">Skills</h1>
             <div className='grid grid-cols-2 lg:grid-cols-6 md:grid-cols-3 gap-3 rounded lg:px-32 md:px-32'>
-                <FaHtml5 className='w-32 h-32 bg-neutral p-6'></FaHtml5>
-                <SiCss3 className='w-32 h-32 bg-neutral p-6'></SiCss3>
-                <FaReact className='w-32 h-32 bg-neutral p-6'></FaReact>      
-                <DiJavascript1 className='w-32 h-32 bg-neutral p-6'></DiJavascript1> 
-                <FaBootstrap className='w-32 h-32 bg-neutral p-6'></FaBootstrap> 
-                <SiTailwindcss className='w-32 h-32 bg-neutral p-6'></SiTailwindcss> 
-                <SiMongodb className='w-32 h-32 bg-neutral p-6'></SiMongodb> 
-                <FaGithub className='w-32 h-32 bg-neutral p-6'></FaGithub> 
-                <DiNodejs className='w-32 h-32 bg-neutral p-6'></DiNodejs> 
-                <FaFigma className='w-32 h-32 bg-neutral p-6'></FaFigma> 
-                <SiFirebase className='w-32 h-32 bg-neutral p-6'></SiFirebase> 
-                <SiVercel className='w-32 h-32 bg-neutral p-6'></SiVercel> 
+                <FaHtml5 className='w-32 h-32 bg-neutral p-6 mb-3'></FaHtml5>
+                <SiCss3 className='w-32 h-32 bg-neutral p-6 mb-3'></SiCss3>
+                <FaReact className='w-32 h-32 bg-neutral p-6 mb-3'></FaReact>      
+                <DiJavascript1 className='w-32 h-32 bg-neutral p-6 mb-3'></DiJavascript1> 
+                <FaBootstrap className='w-32 h-32 bg-neutral p-6 mb-3'></FaBootstrap> 
+                <SiTailwindcss className='w-32 h-32 bg-neutral p-6 mb-3'></SiTailwindcss> 
+                <SiMongodb className='w-32 h-32 bg-neutral p-6 mb-3'></SiMongodb> 
+                <FaGithub className='w-32 h-32 bg-neutral p-6 mb-3'></FaGithub> 
+                <DiNodejs className='w-32 h-32 bg-neutral p-6 mb-3'></DiNodejs> 
+                <FaFigma className='w-32 h-32 bg-neutral p-6 mb-3'></FaFigma> 
+                <SiFirebase className='w-32 h-32 bg-neutral p-6 mb-3'></SiFirebase> 
+                <SiVercel className='w-32 h-32 bg-neutral p-6 mb-3'></SiVercel> 
             </div>
 
         </div>
