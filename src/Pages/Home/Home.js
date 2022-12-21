@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../Assets/heroImg.png';
+import logo from "../../Assets/heroImg.png"
 import BgImg from '../../Assets/bg.jpg';
 import { Link } from 'react-router-dom';
 // import { Typewriter } from 'react-simple-typewriter';
