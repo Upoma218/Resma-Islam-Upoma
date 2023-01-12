@@ -7,13 +7,7 @@ import Typewriter from 'typewriter-effect';
 
 
 const Home = () => {
-    // const handleType = (count) => {
-    //     // access word count number
-    //     console.log(count)
-    // }
-    // const handleDone = () => {
-    //     console.log(`Done after 5 loops!`)
-    // }
+    
 
     return (
         <div className="hero min-h-screen" style={{ backgroundImage: `url(${BgImg})` }}>
@@ -33,18 +27,6 @@ const Home = () => {
                                     loop: true,
                                 }}
                             />
-                            {/* Style will be inherited from the parent element */}
-                            {/* <Typewriter
-                                words={['JUNIOR', 'WEB', 'DEVELOPER', 'MERN', 'STACK', 'DEVELOPER', 'FRONT', 'END', 'DEVELOPER']}
-                                loop={5}
-                                cursor
-                                cursorStyle='_'
-                                typeSpeed={70}
-                                deleteSpeed={50}
-                                delaySpeed={1000}
-                                onLoopDone={handleDone}
-                                onType={handleType}
-                            /> */}
                         </span>
                     </h1>
                     <h1 className="text-3xl font-semibold uppercase">Jr. Web Developer! </h1>
